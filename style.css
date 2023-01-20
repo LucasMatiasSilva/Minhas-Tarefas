@@ -1,0 +1,140 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-image: linear-gradient(to right, #2853DA, #410B62);
+    font-family: 'Roboto', sans-serif;
+}
+
+.container {
+    background: #f3f3f3;
+    max-width: 450px;
+    margin-top: 5%;
+    margin-left: auto;
+    margin-right: auto;
+    padding: 12px;
+    border-radius: 10px;
+}
+
+.header {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 4px;
+    margin-bottom: 12px;
+}
+
+.form {
+    margin-top: 4px;
+    margin-bottom: 4px;
+}
+
+.form form {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.form label {
+    font-weight: bold;
+    margin-top: 4px;
+    margin-bottom: 4px;
+}
+
+.form input {
+    height: 54px;
+    margin-bottom: 4px;
+    margin-top: 4px;
+    padding-left: 12px;
+    border: 3px solid #999;
+    border-radius: 10px;
+    font-size: 15px;
+}
+
+.form input:focus{
+    background-color: rgb(236, 236, 236);
+    transition: 1s;
+}
+
+.form button {
+    background: #0097FF;
+    height: 32px;
+    border-radius: 10px;
+    border: none;
+    color: #fff;
+    margin-top: 4px;
+    margin-bottom: 4px;
+}
+
+.form button:hover{
+    background: #2853DA;
+    transition: 1.5s;
+    cursor: pointer;
+}
+
+.separator {
+    background: #bbb;
+    height: 2px;
+    border-radius: 1px;
+}
+
+.list-tasks {
+    margin-top: 12px;
+    margin-bottom: 12px;
+}
+
+.list-tasks ul {
+    list-style: none;
+}
+
+.list-tasks ul li{
+    background: #410B62;
+    height: 54px;
+    border-radius: 10px;
+    border: none;
+    color: #fff;
+    margin-top: 4px;
+    margin-bottom: 4px;
+    padding: 12px;
+    display: flex;
+    justify-content: left;
+    align-items: center;
+}
+
+.list-tasks ul li:hover{
+    background: #553569;
+}
+
+.btn-clear {
+    margin-top: 4px;
+    background: #d43c3c;
+    height: 32px;
+    border-radius: 10px;
+    border: none;
+    padding: 10px;
+    transition: 0.3s;
+    color: #fff;
+}
+
+.btn-clear:hover {
+    cursor: pointer;
+    background: #d10000;
+}
+
+.footer {
+    background-color: #f0f0f0;
+    border-radius: 10px;
+    padding: 12px;
+    align-items: center;
+}
+
+.footer p {
+    color: #999;
+    font-size: 12px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
